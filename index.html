@@ -40,12 +40,12 @@
 
 <body>
     <div class="container-xxl bg-white p-0">
-        <!-- Spinner Start -->
+        <!-- Spinner Start 
         <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
             <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
                 <span class="sr-only">Loading...</span>
             </div>
-        </div>
+        </div>-->
         <!-- Spinner End -->
 
 
@@ -56,22 +56,17 @@
                     <h1 class="m-0"><img src="img/uru.png" alt="Logo"></h1>
                     <!-- <img src="img/logo.png" alt="Logo"> -->
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                    <span class="fa fa-bars"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <div class="navbar-nav ms-auto py-0">
-                        <a href="#" class="nav-item nav-link active">Inicio</a>
-                        <a href="#" class="nav-item nav-link">Perfil</a>
-                        <a href="#" class="nav-item nav-link">Universidad</a>
+               
+                <ul class="nav nav-pills nav-fill justify-content-end">
+                        <a href="#" class="nav-item nav-link text-dark">Inicio</a>
+                        <a href="#" class="nav-item nav-link text-dark">Perfil</a>
+                        <a href="#" class="nav-item nav-link text-dark">Universidad</a>
                         
-                        <a href="#" class="nav-item nav-link">Ayuda</a>
-                    </div>
-                    <!--<a href="" class="btn btn-light rounded-pill text-primary py-2 px-4 ms-lg-5">Free Quote</a>-->
-                </div>
+                        <a href="#" class="nav-item nav-link text-dark">Ayuda</a>
+            </ul>
             </nav>
 
-            <div class="container-xxl hero-header" style="background-color: #19a35e;">
+            <div class="container-xxl hero-header py-5 m-0" style="background-color: #19a35e;">
                 <div class="container">
                     <div class="row g-5 align-items-center">
                         <div class="col-lg-6 text-center text-lg-start">
@@ -91,8 +86,11 @@
                             </p>
                             <a href="" class="btn btn-outline-light rounded-pill border-2 py-3 px-5 animated slideInRight">Mi capacitación</a>
                         </div>
-                        <div class="col-lg-6 text-center text-lg-start">
+                        <!--<div class="col-lg-6 text-center text-lg-start">
                             <img class="img-fluid animated zoomIn" src="img/rafa.png" alt="">
+                        </div>-->
+                        <div class="col-lg-6 text-center text-lg-start">
+                            <img class="img-fluid mt-5" style="max-height: 500px;" src="img/rafa.png">
                         </div>
                     </div>
                 </div>
@@ -101,7 +99,7 @@
        
 
         <!-- Service Start -->
-        <div class="container-xxl py-5">
+        <div class="container-xxl">
             <div class="container">
                 <div class="mx-auto text-center wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                     <div class="d-inline-block rounded-pill text-primary px-4 mb-3">
@@ -194,31 +192,30 @@
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Footer Start -->
-        <div class="container-fluid bg-dark text-light footer pt-5 wow fadeIn" data-wow-delay="0.1s" style="margin-top: 6rem;">
-            
-            <div class="container">
-                <div class="copyright">
-                    <div class="row">
-                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                            &copy; <a class="border-bottom" href="#">Red Única</a>, All Right Reserved. 
-							
-							</div>
-                        <div class="col-md-6 text-center text-md-end">
-                            <div class="footer-menu">
-                                <a href="">Inicio</a>
-                                <a href="">Perfil</a>
-                                <a href="">Universidad</a>
-                                <a href="">Ayuda</a>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item rounded h-100">
+                            <div class="d-flex justify-content-between">
+                                <div class="service-icon">
+                                    <i class="fa fa-graduation-cap fa-2x"></i>
+                                </div>
+                                <a class="service-btn" href="">
+                                    <i class="fa fa-link fa-2x"></i>
+                                </a>
+                            </div>
+                            <div class="p-5">
+                                <h5 class="mb-3">Plan de capacitación</h5>
+                                <span>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</span>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+
+        <!-- Footer Start -->
+        <div class="container-fluid bg-dark text-light" data-wow-delay="0.1s" style="margin-top: 6rem;">
+            
+           
         </div>
         <!-- Footer End -->
 
