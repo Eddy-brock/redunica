@@ -30,43 +30,48 @@
     <!-- Template Stylesheet -->
     <link href="https://eddy-brock.github.io/redunica/css/style.css" rel="stylesheet">
 
-    <style>
-        html, body {
-            max-width: 100%;
+    <style type="text/css">
+        body {
+            background: linear-gradient(180deg, #19a35e 50%, white 55%);
+            text-decoration: none;
             overflow-x: hidden;
         }
+        .container {
+            max-width: 90% !important;
+            height: 100% !important;
+            margin-top: -150px;
+        }
+
+        container-fluid {
+            max-width: 100%;
+            padding: 0px;
+            padding-left: 0px;
+            padding-right: 0px;
+            margin: 0px;
+            height: 80px !important;
+        }
     </style>
+
 </head>
 
 <body>
-    <div class="container-fluid bg-white p-0">
-        <!-- Spinner Start 
-        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-                <span class="sr-only">Loading...</span>
-            </div>
-        </div>-->
-        <!-- Spinner End -->
-
+    <div class="container-fluid bg-white p-0 m-0">
 
         <!-- Navbar & Hero Start -->
-        <div class="container-fluid position-relative p-0">
-            <nav class="navbar navbar-expand-lg navbar px-4 px-lg-5 py-3" style="background-color: #19a35e;">
+        <div class="container-fluid position-relative p-0 m-0">
+            <nav class="navbar navbar-expand-lg px-4 px-lg-5 py-3" style="background-color: #19a35e;">
                 <a href="https://eddy-brock.github.io/redunica/index.html" class="navbar-brand p-0">
                     <h1 class="m-0"><img src="https://eddy-brock.github.io/redunica/img/uru.png" alt="Logo"></h1>
-                    <!-- <img src="img/logo.png" alt="Logo"> -->
                 </a>
-               
                 <ul class="nav nav-pills nav-fill justify-content-end">
                         <a href="https://eddy-brock.github.io/redunica/index.html" class="nav-item nav-link text-dark">Inicio</a>
                         <a href="/phnx/driver.aspx?routename=Social/UniversalProfile/Bio" class="nav-item nav-link text-dark">Perfil</a>
                         <a href="/catalog/CustomPage.aspx?id=221000412" class="nav-item nav-link text-dark">Universidad</a>
                         <a href="https://demomexico.csod.com/phnx/driver.aspx?routename=Social/Communities/CommunityWithFeed&Root=48" class="nav-item nav-link text-dark">Ayuda</a>
-            </ul>
+                </ul>
             </nav>
 
             <div class="container-fluid hero-header py-5 m-0" style="background-color: #19a35e; background-size: contain;">
-                <div class="container">
                     <div class="row g-5 align-items-center">
                         <div class="col-lg-6 text-center text-lg-start">
                             <h1 class="text-white mb-4 animated zoomIn">Academia de momentos felices</h1>
@@ -85,21 +90,15 @@
                             </p>
                             <a href="https://demomexico.csod.com/DeepLink/ProcessRedirect.aspx?module=launchtraining&lo=8abddfb3-a2e3-4169-8e07-04428840216d" class="btn btn-outline-light rounded-pill border-2 py-3 px-5 animated slideInRight">Mi capacitación</a>
                         </div>
-                        <!--<div class="col-lg-6 text-center text-lg-start">
-                            <img class="img-fluid animated zoomIn" src="img/rafa.png" alt="">
-                        </div>-->
                         <div class="col-lg-6 text-center text-lg-start">
                             <img class="img-fluid mt-5" style="max-height: 500px;" src="https://eddy-brock.github.io/redunica/img/rafa.png">
                         </div>
                     </div>
-                </div>
             </div>
         </div>
-       
 
         <!-- Service Start -->
         <div class="container-fluid">
-            <div class="container">
                 <div class="mx-auto text-center wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                     <div class="d-inline-block rounded-pill text-primary px-4 mb-3">
                         <img src="https://eddy-brock.github.io/redunica/img/uru.png" alt="" style="width: 50%;">
@@ -117,8 +116,7 @@
                             <div class="d-flex justify-content-between">
                                 <div class="service-icon">
                                     <i class="fa fa-graduation-cap fa-2x"></i>
-                                </div>
-                                
+                                </div>    
                             </div>
                             <div class="p-5">
                                 <h5 class="mb-3">Academia para crear momentos felices</h5>
@@ -133,8 +131,7 @@
                             <div class="d-flex justify-content-between">
                                 <div class="service-icon">
                                     <i class="fa fa-graduation-cap fa-2x"></i>
-                                </div>
-                                
+                                </div>                          
                             </div>
                             <div class="p-5">
                                 <h5 class="mb-3">Plan de capacitación Red Única</h5>
@@ -149,8 +146,7 @@
                             <div class="d-flex justify-content-between">
                                 <div class="service-icon">
                                     <i class="fa fa-award fa-2x"></i>
-                                </div>
-                                
+                                </div>         
                             </div>
                             <div class="p-5">
                                 <h5 class="mb-3">Mis trofeos</h5>
@@ -165,8 +161,7 @@
                             <div class="d-flex justify-content-between">
                                 <div class="service-icon">
                                     <i class="fa fa-chart-line fa-2x"></i>
-                                </div>
-                                
+                                </div> 
                             </div>
                             <div class="p-5">
                                 <h5 class="mb-3">Tablero de líderes</h5>
@@ -198,9 +193,6 @@
                                 <div class="service-icon">
                                     <i class="fa fa-calendar-check fa-2x"></i>
                                 </div>
-                                <!--<a class="service-btn" href="">
-                                    <i class="fa fa-link fa-2x"></i>
-                                </a>-->
                             </div>
                             <div class="p-5">
                                 <h5 class="mb-3">Cursos presenciales</h5>
@@ -209,18 +201,8 @@
                         </div>
                         </a>
                     </div>
-                   
                 </div>
-            </div>
         </div>
-
-        <!-- Footer Start -->
-        <div class="container-fluid bg-dark text-light" data-wow-delay="0.1s" style="margin-top: 6rem;">
-            
-           
-        </div>
-        <!-- Footer End -->
-
 
         <!-- Back to Top -->
         <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
